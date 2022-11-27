@@ -156,6 +156,7 @@ input[type=text], select {
   }
 
 
+
 /* Style rules for footer content */
 footer p a {
     color:blueviolet;
@@ -184,6 +185,11 @@ footer  .copyright {
         width: 65%
 }
 
+.offer:hover {
+  transform: scale(1.25);
+  cursor: pointer;
+
+}
 /* Media Query for Tablet Viewport */
 @media screen and (min-width: 650px), print {
     .grid {
@@ -205,5 +211,3 @@ footer  .copyright {
       grid-column: 1 / span 4; /* Starting from column 1, aside element will span 4 columns */
     }
   }
-      
-  
